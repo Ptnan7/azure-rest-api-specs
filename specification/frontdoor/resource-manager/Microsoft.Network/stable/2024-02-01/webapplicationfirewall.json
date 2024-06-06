@@ -533,7 +533,7 @@
         "logScrubbing": {
           "description": "Defines rules that scrub sensitive fields in the Web Application Firewall logs.",
           "type": "object",
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "properties": {
             "state": {
               "type": "string",
